@@ -22,7 +22,7 @@ const Asside = props => {
                     <NavLink to={{
                         pathname: '/'
                     }}
-                        className={pathname === '/' && 'isActive'}>
+                        className={pathname === '/' ? 'isActive' : ""}>
                         <li><img src={home} alt='' /> <p>Home</p></li>
                     </NavLink>
                     <NavLink to={{
