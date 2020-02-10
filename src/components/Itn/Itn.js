@@ -2,6 +2,7 @@ import React from 'react'
 import CardStat from './CardStat'
 import PoolStat from './PoolStat'
 import ScanPool from "./ScanPool"
+import Query from './Query'
 import './Itn.scss'
 
 const Itn = () => {
@@ -21,7 +22,7 @@ const Itn = () => {
                             {[0, 1].map(id => <ScanPool key={id} id={id} />)}
                         </div>
                         <div className="Itn-Cont-Context-Info-Query">
-
+                            <Query />
                         </div>
                     </div>
                     <div className="Itn-Cont-Context-Map">
