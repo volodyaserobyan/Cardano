@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e19239e91e875a41cb67938c8e7cd6d7",
+    "revision": "83bcd3db0580ecea65d2068365d38a7e",
     "url": "/react/cardano/build/index.html"
   },
   {
-    "revision": "7c5f27f305b1394da475",
+    "revision": "2deff3e41eb5f64817fc",
     "url": "/react/cardano/build/static/css/main.66f5126a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react/cardano/build/static/js/2.b41284b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c5f27f305b1394da475",
-    "url": "/react/cardano/build/static/js/main.ed16edfb.chunk.js"
+    "revision": "2deff3e41eb5f64817fc",
+    "url": "/react/cardano/build/static/js/main.7d1ce3d9.chunk.js"
   },
   {
     "revision": "413054dea5eb2e93653b",

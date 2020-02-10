@@ -20,31 +20,31 @@ const Asside = props => {
             <div className="Asside-Wrapper">
                 <ul>
                     <NavLink to={{
-                        pathname: '/'
+                        pathname: `${process.env.PUBLIC_URL}/`
                     }}
                         className={pathname === '/' ? 'isActive' : ""}>
                         <li><img src={home} alt='' /> <p>Home</p></li>
                     </NavLink>
                     <NavLink to={{
-                        pathname: '/itn'
+                        pathname: `${process.env.PUBLIC_URL}/itn`
                     }}
                         activeClassName='isActive'>
                         <li><img src={itn} alt='' /> <p>ITN</p></li>
                     </NavLink>
                     <NavLink to={{
-                        pathname: '/scan1'
+                        pathname: `${process.env.PUBLIC_URL}/scan1`
                     }}
                         activeClassName='isActive'>
                         <li><img src={scan} alt='' /> <p>Scan 1</p></li>
                     </NavLink>
                     <NavLink to={{
-                        pathname: '/scan2'
+                        pathname: `${process.env.PUBLIC_URL}/scan2`
                     }}
                         activeClassName='isActive'>
                         <li><img src={scan} alt='' /> <p>Scan 2</p></li>
                     </NavLink>
                     <NavLink to={{
-                        pathname: '/stake'
+                        pathname: `${process.env.PUBLIC_URL}/stake`
                     }}
                         activeClassName='isActive'>
                         <li><img src={stake} alt='' /> <p>Stake Guide</p></li>
